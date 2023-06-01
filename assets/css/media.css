@@ -1,0 +1,84 @@
+@media screen and (max-width: 640px) {
+    body {
+        margin-left: 0;
+        margin-top: 27px;
+    }
+
+    nav.navbar {
+        display: none;
+        margin-left: 16px;
+        margin-top: 28px;
+    }
+    .header__foto {
+        display: none;
+    }
+    h1 {
+        font-size: 36px ;
+    }
+
+    p {
+        font-size: 18px;
+    }
+      /* buttons */
+       .actions-buttons {
+        display: flex;
+        flex-direction: column-reverse;
+       align-items: center;
+        gap: 12px;
+        margin-top: 44px;
+        cursor: pointer;
+       }
+       .button__button1 {
+        align-items: center;
+        display: flex;
+        padding: 12px 134px;
+        border: 1px solid #D0D5DD;
+        background: #FFFFFF;
+        border-radius: 8px;
+        gap: 14px;
+       }
+
+
+       .button__button2 {
+        padding: 15px 148px;
+        size: 18px;
+        border-radius: 8px;
+        background: #7F56D9;
+        border: 1px solid #7F56D9;
+        color: #FFFFFF;
+    }
+
+
+      /* end buttons */
+       /* screen */
+ 
+    .screen img {
+        max-width: 278px;
+        max-width:  174px;
+       
+    }
+    .container-sreen {
+        margin-top: 64px;
+    }
+
+.logotype {
+  
+        display: flex;
+        flex-wrap: wrap;
+       padding: 0 10px 94px;
+}
+.logotype img {
+    height: 36px;
+}
+.logos-icon {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.logos-icon1 {
+    margin-top: -25px;
+}
+
+
+
+}
